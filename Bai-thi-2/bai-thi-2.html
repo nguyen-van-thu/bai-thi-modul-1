@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài-2</title>
+</head>
+<body>
+<script>
+    function tryRemoveFromArray(array, index){
+
+        if(index >= 0 && index < array.length){
+            for(let i=index; i<array.length - 1; i++){
+                array[i] = array[i+1];
+            }
+        }
+        else
+        {
+            for(let j=0; j<array.length; j++){
+                console.log(array[j]);
+            }
+        }
+
+    }
+    retunr(tryRemoveFromArray());
+</script>
+</body>
+</html>
